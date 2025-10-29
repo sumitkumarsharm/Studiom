@@ -16,7 +16,7 @@ const Navbar = () => {
         isCourseListPage ? "bg-white" : "bg-cyan-100/70"
       }`}
     >
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-indigo-600 tracking-wide font-serif select-none">
+      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-indigo-600 tracking-wide font-serif select-none">
         Studiom
       </h1>
 
