@@ -1,6 +1,7 @@
 import React from "react";
 import { assets } from "../../assets/assets";
 import Searchbar from "./Searchbar";
+import Companies from "./Companies";
 
 const Hero = () => {
   return (
@@ -31,6 +32,7 @@ const Hero = () => {
         succeed.
       </p>
       <Searchbar/>
+      <Companies/>
     </div>
   );
 };
