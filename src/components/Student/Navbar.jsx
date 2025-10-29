@@ -1,9 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { assets } from "../../assets/assets";
+import { useClerk ,UserButton, useUser } from "@clerk/clerk-react";
 
 const Navbar = () => {
   const isCourseListPage = location.pathname.includes("/course-list");
+
+  const {openSignIn} = useClerk()
+
+  const {user} = useUser();
+
   return (
     <div
       className={`flex w-full items-center justify-between px-4 sm:px-10 md:px-14 lg:px-36 border-b border-gray-500 py-3 ${
@@ -18,9 +24,11 @@ const Navbar = () => {
           <button className="cursor-pointer">Become Professor</button>|{" "}
           <Link to="/my-enrollments">My Enrollements</Link>
         </div>
-        <button className="bg-blue-600 text-white px-5 py-2 rounded-full">
+        {user ? <UserButton/> :  <button
+        onClick={()=>openSignIn()}
+         className="bg-blue-600 text-white px-5 py-2 rounded-full">
           Create Account
-        </button>
+        </button>}
       </div>
       {/* for mobile view */}
       <div className="md:hidden flex items-center gap-2 sm:gap-5 text-gray-500">
