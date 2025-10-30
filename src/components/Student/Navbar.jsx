@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { assets } from "../../assets/assets";
 import { useClerk, UserButton, useUser } from "@clerk/clerk-react";
+import { AppContext } from "../../context/AppContext";
 
 const Navbar = () => {
   const isCourseListPage = location.pathname.includes("/course-list");
-
   const { openSignIn } = useClerk();
-
   const { user } = useUser();
+  const { navigate } = useContext(AppContext);
 
   return (
     <div
@@ -16,7 +16,10 @@ const Navbar = () => {
         isCourseListPage ? "bg-white" : "bg-cyan-100/70"
       }`}
     >
-      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-indigo-600 tracking-wide font-serif select-none">
+      <h1
+        onClick={() => navigate("/")}
+        className="cursor-pointer text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-indigo-600 tracking-wide font-serif select-none"
+      >
         Studiom
       </h1>
 
