@@ -290,6 +290,41 @@ export const dummyCourses = [
         rating: 5,
         _id: "6773e37360cb0ab974342314",
       },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6773e37360cb0ab974342314",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6773e37360cb0ab974342314",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6773e37360cb0ab974342314",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6773e37360cb0ab974342314",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6773e37360cb0ab974342314",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6773e37360cb0ab974342314",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6773e37360cb0ab974342314",
+      },
     ],
     createdAt: "2024-12-17T08:16:53.622Z",
     updatedAt: "2025-01-02T04:47:44.701Z",
@@ -363,6 +398,66 @@ export const dummyCourses = [
         rating: 5,
         _id: "6776369244daad0f313d81a9",
       },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 3,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4.5,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6776369244daad0f313d81a9",
+      },
     ],
     createdAt: "2024-12-17T08:16:53.622Z",
     updatedAt: "2025-01-02T06:47:54.446Z",
@@ -431,6 +526,41 @@ export const dummyCourses = [
       "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
     ],
     courseRatings: [
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 3,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 3,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 3.4,
+        _id: "6776369244daad0f313d81a9",
+      },
       {
         userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
         rating: 3,
@@ -504,6 +634,31 @@ export const dummyCourses = [
       "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
     ],
     courseRatings: [
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 5,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 3,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4.5,
+        _id: "6776369244daad0f313d81a9",
+      },
+      {
+        userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        rating: 4,
+        _id: "6776369244daad0f313d81a9",
+      },
       {
         userId: "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
         rating: 4,

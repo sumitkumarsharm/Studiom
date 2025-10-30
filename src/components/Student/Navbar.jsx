@@ -8,7 +8,7 @@ const Navbar = () => {
   const isCourseListPage = location.pathname.includes("/course-list");
   const { openSignIn } = useClerk();
   const { user } = useUser();
-  const { navigate } = useContext(AppContext);
+  const { navigate, isEducator, setIsEducator } = useContext(AppContext);
 
   return (
     <div
@@ -27,8 +27,15 @@ const Navbar = () => {
         <div className="flex items-center gap-5">
           {user && (
             <>
-              <button className="cursor-pointer">Become Professor</button> |
-              <Link to="/my-enrollments">My Enrollements</Link>
+              <button
+                onClick={() => {
+                  navigate("/educator");
+                }}
+                className="cursor-pointer"
+              >
+                {isEducator ? "Professor" : "Become Professor"}
+              </button>{" "}
+              |<Link to="/my-enrollments">My Enrollements</Link>
             </>
           )}
         </div>
