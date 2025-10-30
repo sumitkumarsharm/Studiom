@@ -2,6 +2,7 @@ import React from "react";
 import { assets } from "../../assets/assets";
 import Searchbar from "./Searchbar";
 import Companies from "./Companies";
+import CourseSection from "./CourseSection";
 
 const Hero = () => {
   return (
@@ -31,8 +32,9 @@ const Hero = () => {
         to deliver practical, engaging courses that empower you to grow and
         succeed.
       </p>
-      <Searchbar/>
-      <Companies/>
+      <Searchbar />
+      <Companies />
+      <CourseSection />
     </div>
   );
 };

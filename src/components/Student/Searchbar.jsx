@@ -2,18 +2,20 @@ import React, { useState } from "react";
 import { assets } from "../../assets/assets";
 import { useNavigate } from "react-router-dom";
 
-const Searchbar = ({data}) => {
+const Searchbar = ({ data }) => {
   const navigate = useNavigate();
-  const [input, setInput] = useState(data ? data : "")
+  const [input, setInput] = useState(data ? data : "");
 
-  const onSearchHandler = (e)=>{
+  const onSearchHandler = (e) => {
     e.preventDefault();
-    navigate("/course-list/"+input);
-  }
-
+    navigate("/course-list/" + input);
+  };
 
   return (
-    <form onSubmit={onSearchHandler} className="max-w-xl w-full md:h-14 h-12 flex items-center bg-white border border-gray-500/20 rounded-full">
+    <form
+      onSubmit={onSearchHandler}
+      className="max-w-xl w-full md:h-14 h-12 flex items-center bg-white border border-gray-500/20 rounded-full"
+    >
       <img
         src={assets.search_icon}
         className="md:w-auto w-10 px-3"
