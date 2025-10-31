@@ -5,10 +5,11 @@ import Companies from "./Companies";
 import CourseSection from "./CourseSection";
 import Testimonials from "./Testimonials";
 import CallToAction from "./CallToAction";
+import Footer from "./Footer";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full px-6 md:px-0 pt-20 md:pt-36 space-y-8 text-center bg-linear-to-b from-cyan-100/70 to-white">
+    <div className="flex flex-col items-center justify-center w-full pt-20 md:pt-36 space-y-8 text-center bg-linear-to-b from-cyan-100/70 to-white">
       <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-4xl font-bold text-gray-800 max-w-4xl mx-auto relative leading-snug">
         Empower your future by unlocking new{" "}
         <span className="text-blue-600">skills</span> and embracing lifelong{" "}
@@ -34,11 +35,14 @@ const Hero = () => {
         to deliver practical, engaging courses that empower you to grow and
         succeed.
       </p>
-      <Searchbar />
+      <div className="w-full flex justify-center items-center px-6">
+        <Searchbar />
+      </div>
       <Companies />
       <CourseSection />
       <Testimonials />
       <CallToAction />
+      <Footer />
     </div>
   );
 };

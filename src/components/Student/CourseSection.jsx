@@ -7,7 +7,7 @@ const CourseSection = () => {
   const { allCourses } = useContext(AppContext);
 
   return (
-    <section className="py-10 px-6 sm:px-10 lg:px-24 xl:px-40 bg-white">
+    <section className="py-10 px-4 sm:px-6 md:px-10 lg:px-24 bg-white w-full overflow-x-hidden">
       {/* Heading */}
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-800 leading-snug">
         Master your craft with the best{" "}
