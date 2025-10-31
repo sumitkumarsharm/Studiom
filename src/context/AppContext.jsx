@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { dummyCourses } from "../assets/assets";
+import { dummyCourses, dummyTestimonial } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
 
 export const AppContext = createContext();
@@ -7,6 +7,7 @@ export const AppContext = createContext();
 export const AppContextProvider = ({ children }) => {
   const currency = import.meta.env.VITE_CURRENCY || "$";
   const [allCourses, setAllCourses] = useState([]);
+  const [allTestimonies, setAllTestimonies] = useState([]);
   const [isEducator, setIsEducator] = useState(true);
   const navigate = useNavigate();
 
@@ -14,6 +15,7 @@ export const AppContextProvider = ({ children }) => {
   const fetchAllCourses = async () => {
     try {
       setAllCourses(dummyCourses);
+      setAllTestimonies(dummyTestimonial);
     } catch (error) {
       console.error("Error fetching courses:", error);
     }
@@ -44,6 +46,7 @@ export const AppContextProvider = ({ children }) => {
     calculateRating,
     isEducator,
     setIsEducator,
+    allTestimonies,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
