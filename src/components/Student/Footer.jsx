@@ -18,11 +18,41 @@ const Footer = () => {
           <h2 className="text-2xl font-bold">Studiom</h2>
           <p className="text-gray-400 mt-3">Let's connect with our socials</p>
           <div className="flex justify-center md:justify-start space-x-4 mt-4 text-xl">
-            <FaInstagram className="hover:text-pink-500 transition cursor-pointer" />
-            <FaLinkedinIn className="hover:text-blue-500 transition cursor-pointer" />
-            <FaDiscord className="hover:text-indigo-500 transition cursor-pointer" />
-            <FaYoutube className="hover:text-red-500 transition cursor-pointer" />
-            <FaTwitter className="hover:text-sky-400 transition cursor-pointer" />
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className="hover:text-pink-500 transition" />
+            </a>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn className="hover:text-blue-500 transition" />
+            </a>
+            <a
+              href="https://discord.com/invite"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaDiscord className="hover:text-indigo-500 transition" />
+            </a>
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaYoutube className="hover:text-red-500 transition" />
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className="hover:text-sky-400 transition" />
+            </a>
           </div>
         </div>
 
