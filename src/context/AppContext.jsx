@@ -9,6 +9,7 @@ export const AppContextProvider = ({ children }) => {
   const [allCourses, setAllCourses] = useState([]);
   const [allTestimonies, setAllTestimonies] = useState([]);
   const [isEducator, setIsEducator] = useState(true);
+  const [filterCourse, setFilterCourse] = useState([]);
   const navigate = useNavigate();
 
   // ✅ Fetch all courses (currently from dummy data)
@@ -16,11 +17,23 @@ export const AppContextProvider = ({ children }) => {
     try {
       setAllCourses(dummyCourses);
       setAllTestimonies(dummyTestimonial);
+      setFilterCourse(dummyCourses); // initially show all
     } catch (error) {
       console.error("Error fetching courses:", error);
     }
   };
 
+  const filterCoursesByInput = (input = "") => {
+    if (!input.trim()) {
+      setFilterCourse(allCourses);
+      return;
+    }
+
+    const filtered = allCourses.filter((course) =>
+      course.courseTitle.toLowerCase().includes(input.toLowerCase()),
+    );
+    setFilterCourse(filtered);
+  };
   // ✅ Calculate average rating for a course
   const calculateRating = (course) => {
     const { courseRatings } = course;
@@ -56,6 +69,9 @@ export const AppContextProvider = ({ children }) => {
     setIsEducator,
     allTestimonies,
     calculateTestimonialsRate,
+    filterCourse,
+    setFilterCourse,
+    filterCoursesByInput,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
