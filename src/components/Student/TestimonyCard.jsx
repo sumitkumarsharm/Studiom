@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AppContext } from "../../context/AppContext";
 
 const TestimonyCard = ({ testimony }) => {
+  const { calculateTestimonialsRate } = useContext(AppContext);
   return (
     <div className="w-full max-w-xs sm:max-w-sm md:max-w-sm bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg">
       {/* Header */}
@@ -27,7 +29,11 @@ const TestimonyCard = ({ testimony }) => {
           {[...Array(5)].map((_, i) => (
             <svg
               key={i}
-              className="w-4 h-4 sm:w-5 sm:h-5 text-orange-400"
+              className={`w-4 h-4 sm:w-5 sm:h-5 ${
+                i < Math.round(testimony.rating)
+                  ? "text-orange-400"
+                  : "text-gray-300"
+              }`}
               fill="currentColor"
               viewBox="0 0 20 20"
             >

@@ -120,7 +120,7 @@ export const dummyTestimonial = [
     name: "James Washington",
     role: "SWE 2 @ Google",
     image: assets.profile_img_3,
-    rating: 4.5,
+    rating: 4,
     feedback:
       "I've been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.",
   },

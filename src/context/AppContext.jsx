@@ -33,6 +33,14 @@ export const AppContextProvider = ({ children }) => {
     return (totalRating / courseRatings.length).toFixed(1);
   };
 
+  const calculateTestimonialsRate = (testimony) => {
+    const { rating } = testimony;
+    if (!Array.isArray(rating) || rating.length === 0) return 0;
+
+    const totalRating = rating.reduce((sum, r) => sum + (r.rating || 0), 0);
+    return (totalRating / rating.length).toFixed(1);
+  };
+
   // ✅ Fetch data on mount
   useEffect(() => {
     fetchAllCourses();
@@ -47,6 +55,7 @@ export const AppContextProvider = ({ children }) => {
     isEducator,
     setIsEducator,
     allTestimonies,
+    calculateTestimonialsRate,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

@@ -4,6 +4,7 @@ import Searchbar from "./Searchbar";
 import Companies from "./Companies";
 import CourseSection from "./CourseSection";
 import Testimonials from "./Testimonials";
+import CallToAction from "./CallToAction";
 
 const Hero = () => {
   return (
@@ -37,6 +38,7 @@ const Hero = () => {
       <Companies />
       <CourseSection />
       <Testimonials />
+      <CallToAction />
     </div>
   );
 };
