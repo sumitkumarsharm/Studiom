@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Route, Routes, useLocation, useMatch } from "react-router-dom";
 
@@ -14,6 +14,7 @@ import AddCourse from "./pages/Professor/AddCourse";
 import MyCourcess from "./pages/Professor/MyCourcess";
 import StudentEnrolled from "./pages/Professor/StudentEnrolled";
 import Navbar from "./components/Student/Navbar";
+import Loader from "./components/Loader";
 
 const PageWrapper = ({ children }) => (
   <motion.div
@@ -33,6 +34,14 @@ const PageWrapper = ({ children }) => (
 const App = () => {
   const location = useLocation();
   const isProfessorPage = useMatch("/educator/*");
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) return <Loader />;
 
   return (
     <div className="text-default min-h-screen bg-white overflow-x-hidden">
