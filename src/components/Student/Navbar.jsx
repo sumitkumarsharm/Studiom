@@ -33,7 +33,7 @@ const Navbar = () => {
                 }}
                 className="cursor-pointer"
               >
-                {isEducator ? "Professor" : "Become Professor"}
+                {isEducator ? "Professor Dashboard" : "Become Professor"}
               </button>{" "}
               |<Link to="/my-enrollments">My Enrollements</Link>
             </>
@@ -55,7 +55,14 @@ const Navbar = () => {
         <div className="flex items-center gap-2 text-sm">
           {user && (
             <>
-              <button className="cursor-pointer">Become Professor</button>
+              <button
+                onClick={() => {
+                  navigate("/educator");
+                }}
+                className="cursor-pointer"
+              >
+                {isEducator ? "Professor Dashboard" : "Become Professor"}
+              </button>{" "}
               <span className="text-gray-400">|</span>
               <Link to="/my-enrollments">My Enrollments</Link>
             </>

@@ -3,6 +3,7 @@ import { assets } from "../../assets/assets";
 import Searchbar from "./Searchbar";
 import Companies from "./Companies";
 import CourseSection from "./CourseSection";
+import Testimonials from "./Testimonials";
 
 const Hero = () => {
   return (
@@ -35,6 +36,7 @@ const Hero = () => {
       <Searchbar />
       <Companies />
       <CourseSection />
+      <Testimonials />
     </div>
   );
 };
