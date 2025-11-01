@@ -283,6 +283,11 @@ export const dummyCourses = [
       "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
       "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
       "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
     ],
     courseRatings: [
       {
@@ -390,6 +395,12 @@ export const dummyCourses = [
     educator: "675ac1512100b91a6d9b8b24",
     enrolledStudents: [
       "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+      "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
       "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
     ],
     courseRatings: [
@@ -524,6 +535,14 @@ export const dummyCourses = [
     enrolledStudents: [
       "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
       "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+      "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
     ],
     courseRatings: [
       {
@@ -631,6 +650,22 @@ export const dummyCourses = [
     educator: "675ac1512100b91a6d9b8b24",
     enrolledStudents: [
       "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+      "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+      "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+      "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
       "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
     ],
     courseRatings: [

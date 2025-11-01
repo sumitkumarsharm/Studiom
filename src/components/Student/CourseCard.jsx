@@ -26,9 +26,7 @@ const CourseCard = ({ course }) => {
         </h3>
 
         {/* Educator */}
-        <p className="text-xs sm:text-sm text-gray-500">
-          {course.educator.name}
-        </p>
+        <p className="text-xs sm:text-sm text-gray-500">Harsh Sharma</p>
 
         {/* Rating */}
         <div className="flex items-center space-x-1 sm:space-x-2 text-xs sm:text-sm">
